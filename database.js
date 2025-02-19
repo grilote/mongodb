@@ -10,7 +10,9 @@ const mogoose = require('mongoose')
 // configuração do banco de dados
 // ip/ link do servidor, autenticação
 // abre o atlas e nos 3 pontinhos (copy connection string) na nuvem usando o compass.
-const url = 'mongodb+srv://admin:123Senac@cluster0.uutlu.mongodb.net/'
+// ao final da url definir o nome do banco de daos
+// exemplo: /dbclientes
+const url = 'mongodb+srv://admin:123Senac@cluster0.uutlu.mongodb.net/dbclientes'
 
 // validação (evitar a abertura de varias conexões)
 let conectado = false
